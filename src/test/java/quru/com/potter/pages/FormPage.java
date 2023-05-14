@@ -1,7 +1,7 @@
-package quru.qa.pages;
+package quru.com.potter.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import quru.qa.pages.components.Calendar;
+import quru.com.potter.pages.components.Calendar;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;

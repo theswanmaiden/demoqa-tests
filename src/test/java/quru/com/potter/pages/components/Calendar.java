@@ -1,4 +1,4 @@
-package quru.qa.pages.components;
+package quru.com.potter.pages.components;
 
 import static com.codeborne.selenide.Selenide.$;
 

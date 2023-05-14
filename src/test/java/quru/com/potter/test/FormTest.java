@@ -1,10 +1,10 @@
-package quru.qa.test;
+package quru.com.potter.test;
 
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import quru.qa.pages.FormPage;
+import quru.com.potter.pages.FormPage;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
