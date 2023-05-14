@@ -1,4 +1,4 @@
-package quru.com.potter.test;
+package com.potter.test;
 
 public class TestData {
     public static String

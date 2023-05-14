@@ -1,8 +1,8 @@
-package quru.com.potter.pages;
+package com.potter.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import quru.com.potter.pages.components.Calendar;
-import quru.com.potter.test.TestData;
+import com.potter.pages.components.Calendar;
+import com.potter.test.TestData;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
