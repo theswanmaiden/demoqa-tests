@@ -2,8 +2,12 @@ package com.potter.properties;
 
 import com.potter.config.CredentialsConfig;
 import org.aeonbits.owner.ConfigFactory;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+import static java.lang.String.format;
+
+@Tag("owner")
 public class OwnerTests {
     public CredentialsConfig credentials =
             ConfigFactory.create(CredentialsConfig.class);
@@ -13,6 +17,7 @@ public class OwnerTests {
         String login = credentials.login();
         String password = credentials.password();
 
-        System.out.println(login + " - это логин, а это" + " " + password + " - пароль");
+        String message = format("Это логин %s , а это пароль %s", login, password);
+        System.out.println(message);
     }
 }
