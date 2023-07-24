@@ -6,12 +6,13 @@ import com.github.javafaker.Faker;
 import com.potter.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import com.potter.pages.FormPage;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.$;
-
+@Tag("simple_tests")
 public class FormTest {
     private FormPage formPage = new FormPage();
     Faker faker = new Faker();
